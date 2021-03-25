@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #00182D;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pingpong.scenes.settings.SettingsController">
+    <children>
+        <Label text="Настройки" textFill="#dd7c3b">
+            <font>
+                <Font name="Calibri Bold" size="96.0" />
+            </font>
+            <VBox.margin>
+                <Insets bottom="125.0" />
+            </VBox.margin>
+        </Label>
+      <Slider minWidth="-Infinity" prefHeight="14.0" prefWidth="500.0">
+         <VBox.margin>
+            <Insets left="500.0" right="500.0" />
+         </VBox.margin>
+      </Slider>
+    </children>
+</VBox>
